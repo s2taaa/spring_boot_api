@@ -10,6 +10,6 @@ public interface CustomerService {
     public Customer save(Customer c);
     public List<Customer> getAll();
     public Customer get(Long id);
-    public Customer update(Long id,Customer c);
+    public Customer update(Customer c);
     public void delete(Long id);
 }
